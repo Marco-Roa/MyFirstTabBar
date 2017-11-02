@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyViewController2.h
 //  MyFirstTabBar
 //
 //  Created by Marco Antonio Roa De La Cruz on 11/1/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyViewController2 : UIViewController
 
 @end
-
