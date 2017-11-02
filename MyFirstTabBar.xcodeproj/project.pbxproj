@@ -60,8 +60,8 @@
 		F4EB27261FAA9CB100C7F64A /* MyFirstTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				F4EB27271FAA9CB100C7F64A /* AppDelegate.h */,
-				F4EB27281FAA9CB100C7F64A /* AppDelegate.m */,
+				F4EB27401FAA9CBB00C7F64A /* Controllers */,
+				F4EB27411FAA9CCB00C7F64A /* Main */,
 				F4EB272A1FAA9CB100C7F64A /* ViewController.h */,
 				F4EB272B1FAA9CB100C7F64A /* ViewController.m */,
 				F4EB272D1FAA9CB100C7F64A /* Main.storyboard */,
@@ -72,6 +72,22 @@
 				F4EB27301FAA9CB100C7F64A /* MyFirstTabBar.xcdatamodeld */,
 			);
 			path = MyFirstTabBar;
+			sourceTree = "<group>";
+		};
+		F4EB27401FAA9CBB00C7F64A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4EB27411FAA9CCB00C7F64A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB27281FAA9CB100C7F64A /* AppDelegate.m */,
+				F4EB27271FAA9CB100C7F64A /* AppDelegate.h */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
