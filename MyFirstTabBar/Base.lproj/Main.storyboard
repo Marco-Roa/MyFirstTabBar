@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hyb-c8-sb7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="hyb-c8-sb7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,7 +24,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LbS-9w-uQ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-370" y="112"/>
+            <point key="canvasLocation" x="-231.25" y="124.50666666666666"/>
         </scene>
         <!--Item-->
         <scene sceneID="wCb-d7-Ddn">
@@ -42,7 +41,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="497" y="522"/>
+            <point key="canvasLocation" x="310.625" y="580.28999999999996"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K2Y-xP-mG1">
@@ -51,14 +50,20 @@
                     <view key="view" contentMode="scaleToFill" id="A8X-Ji-Wmh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rDd-ux-QHi">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.031326614117045182" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Q5X-y7-U3Z"/>
                     </view>
                     <navigationItem key="navigationItem" id="6vR-h5-dtf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgN-ap-DDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461" y="519"/>
+            <point key="canvasLocation" x="912.5" y="576.49999999999989"/>
         </scene>
         <!--Item-->
         <scene sceneID="rkX-aM-xNA">
@@ -75,7 +80,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WjV-Of-l4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="471" y="-294"/>
+            <point key="canvasLocation" x="294.375" y="-326.82999999999998"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="saZ-hg-FUf">
@@ -84,14 +89,20 @@
                     <view key="view" contentMode="scaleToFill" id="RWI-DG-aCl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mP5-vT-5tH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="WXi-fm-tzb"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ad2-9Y-gHj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oCO-62-61W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1447" y="-293"/>
+            <point key="canvasLocation" x="903.5" y="-326.5"/>
         </scene>
     </scenes>
 </document>
