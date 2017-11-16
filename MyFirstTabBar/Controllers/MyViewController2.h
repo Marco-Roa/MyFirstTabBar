@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MatchObject.h"
+#import "WebServices.h"
 
 @interface MyViewController2 : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tableView2;
 
 @end

@@ -55,6 +55,10 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="488"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BDG-nh-WfY" id="BDd-nO-oDn"/>
+                                    <outlet property="delegate" destination="BDG-nh-WfY" id="2Rj-hX-HFd"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Kbt-Ut-gle">
                                 <rect key="frame" x="0.0" y="552" width="375" height="66"/>
@@ -70,6 +74,9 @@
                         <color key="backgroundColor" red="0.0" green="0.031326614117045182" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="6vR-h5-dtf"/>
+                    <connections>
+                        <outlet property="tableView2" destination="rDd-ux-QHi" id="Ghc-m7-Bw2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgN-ap-DDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
